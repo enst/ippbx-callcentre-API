@@ -1,4 +1,4 @@
-# Route
+# Routes
 ## GET or PUT /route/{context}
 /routes/public
 ```javascript
