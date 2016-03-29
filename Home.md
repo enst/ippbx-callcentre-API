@@ -3,16 +3,16 @@
 /routes/public
 ```javascript
 [
-  {"+16471234567" : "answer_queue"},
-  {".*" : "answer_menu"}
+  {"regex" : "+16471234567", "dialplan" : "answer_queue"},
+  {"regex" : ".*", "dialplan" : "answer_menu"}
 ]
 ```
 /routes/default
 ```javascript
 [
-  {"^2\d{2}$"} : "internal"}, 
-  {"^\*98$" : "check_voicemail"},
-  {".*" : "external"}
+  {"regex" : "^2\d{2}$"}, "dialplan" : "internal"}, 
+  {"regex" : "^\*98$", "dialplan" : "check_voicemail"},
+  {"regex" : ".*" , "dialplan" : "external"}
 ]
 ```
 {context} is the dialplan context in FreeSWITCH. "default" if for internal extension; "public" is for inbound calls from external.
