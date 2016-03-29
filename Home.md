@@ -1,5 +1,5 @@
 # Routes
-## GET or PUT /route/{context}
+## GET or PUT /routes/{context}
 /routes/public
 ```javascript
 [
