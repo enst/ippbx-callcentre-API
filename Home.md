@@ -10,7 +10,7 @@
 /routes/default
 ```javascript
 [
-  {"regex" : "^2\d{2}$"}, "dialplan" : "internal"}, 
+  {"regex" : "^2\d{2}$", "dialplan" : "internal"}, 
   {"regex" : "^\*98$", "dialplan" : "check_voicemail"},
   {"regex" : ".*" , "dialplan" : "external"}
 ]
