@@ -1,16 +1,16 @@
 # Route
 ## GET or PUT /route/{context}
-/route/public
+/routes/public
 ```javascript
 [
   {"+16471234567" : "answer_queue"},
   {".*" : "answer_menu"}
 ]
 ```
-/route/default
+/routes/default
 ```javascript
 [
-  {"^2\d{2}$} : "internal"}, 
+  {"^2\d{2}$"} : "internal"}, 
   {"^\*98$" : "check_voicemail"},
   {".*" : "external"}
 ]
