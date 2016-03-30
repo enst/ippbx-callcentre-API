@@ -37,10 +37,9 @@ Each dialplan has a module and may have one or more properties (key-value pairs)
 ```javascript
 {
   "module": "callout",
-  "max_ring_time": "20"
+  "max_ring_time": 20
 }
 ```
-Note: Using integer may be better for max_ring_time but it seems everything in Redis is a string. 
 
 ### group call
 ```javascript
@@ -137,7 +136,8 @@ Get all queues.
 ```javascript
 [
   {
-    "agent_wrapup_time": "5",
+    "agent_wrapup_time": 5,
+    "max_ring_time": 60, 
     "agents": [
       "agent0",
       "agent1"
@@ -145,7 +145,6 @@ Get all queues.
     "id": "q0"
   },
   {
-    "agent_wrapup_time": "undefined",
     "agents": [
       "agent0",
       "agent1",
@@ -159,7 +158,7 @@ Get all queues.
 ## GET /queue/{queue_id}
 ```javascript
 {
-  "agent_wrapup_time": "5",
+  "agent_wrapup_time": 5,
   "agents": [
     "0",
     "1"
