@@ -1,5 +1,7 @@
 ### * Every API path implicitly has the prefix "/api/".
 
+[Routes](./routes)
+
 # Routes
 ## GET or PUT /routes/{context}
 /routes/public
