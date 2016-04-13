@@ -18,6 +18,4 @@
   {"regex" : ".*" , "callflow" : "ext"}
 ]
 ```
-{context} is the dialplan context in FreeSWITCH. "default" is for calls originate from internal extension; "public" is for inbound calls from external.
-
-In Redis, they should be stored in routes:default or routes:public.
+{context} is the dialplan context in FreeSWITCH. "default" is for calls that originate from internal extensions; "public" is for inbound calls that from external.
