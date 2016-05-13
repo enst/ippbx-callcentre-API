@@ -1,6 +1,7 @@
 # query example: #
 ## query number of CDR records which match the conditions: ##
 "count=1" tells the server to return number of records available. This is designed for pagination. Once the client gets the number of rows, it can know the number of pages should display.
+
 	curl -X GET 'http://localhost:8001/cdr?domain=sip.test.gelenknetworks.com&caller=%2B16478505697&callee=16473607221&start_date=2016%2d04%2d24T14%3A09%3A08.000Z&end_date=2016%2D04%2D24T14%3A10%3A08.000Z&count=1'
 
 ## query CDR records ##
