@@ -1,5 +1,6 @@
 # query example: #
 ## query number of CDR records which match the conditions: ##
+"count=1" tells the server to return number of records available. This is designed for pagination. Once the client gets the number of rows, it can know the number of pages should display.
 	curl -X GET 'http://localhost:8001/cdr?domain=sip.test.gelenknetworks.com&caller=%2B16478505697&callee=16473607221&start_date=2016%2d04%2d24T14%3A09%3A08.000Z&end_date=2016%2D04%2D24T14%3A10%3A08.000Z&count=1'
 
 ## query CDR records ##
@@ -27,3 +28,11 @@
 
 ## query number of rows ##
 	{"rows":[2]}
+
+# pagination usage #
+
+1, Client should query the number of available records with "count=1"
+2, To query the first page of records, don't specify the "start_docid" parameter
+3, server returns one more rows. For example, "page_size=10", then server returns 11 rows, if available. If returned rows less than 11, then it's the end. 
+4, to query the 2nd, specify start_docid=rows[10]["_id"]
+5, to jump to a specific page, use "page" parameter
