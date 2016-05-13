@@ -5,4 +5,5 @@
 #[Agent](agent)
 #[Queue](queue)
 
+#[CDR](cdr)
 #[SIPUsers](SIPUsers)
