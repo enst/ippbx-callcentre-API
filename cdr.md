@@ -11,7 +11,7 @@
 
 # Parameters: #
 	page  - optional, skip to a specific page. This is not recomended, please use start_docid instead.
-	page_size - optional, default value is 20
+	page_size - optional, default value is 20; return all rows if set to -1
 	start_docid - optional, for pagination, if not exist then assume to be 1st page. Overrides page parameter.
 	start_date - optional, ISO format "2016-04-29T18:58:23.000Z", must be less than end_date, default is 1970-1-1
 	end_date - optional, ISO format, default is 2106-xx-xx
