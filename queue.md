@@ -38,6 +38,8 @@ Get all queues.
   "strategy": "ring_all"
 }
 ```
+## POST /queue/{queue_id}
+Use the same JSON format as in GET
 
 ## DELETE /queue/{queue_id}
 
