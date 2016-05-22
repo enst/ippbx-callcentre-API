@@ -29,8 +29,8 @@ Get all queues.
 {
   "agent_wrapup_time": 5,
   "agents": [
-    "0",
-    "1"
+    "agent0",
+    "agent1"
   ],
   "max_ring_time": "15",
   "max_waiting_time": "29",
@@ -41,7 +41,7 @@ Get all queues.
 
 ## PUT /queue/{queue_id}
 ```javascript
-{"agents": ["0", "1", "2"]}
+{"agents": ["agent0", "agnet1", "agent2"]}
 ```
 
 ## DELETE /queue/{queue_id}
