@@ -32,7 +32,10 @@ Get all queues.
     "0",
     "1"
   ],
-  "id": "0"
+  "max_ring_time": "15",
+  "max_waiting_time": "29",
+  "moh": "ringback",
+  "strategy": "ring_all"
 }
 ```
 
