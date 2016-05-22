@@ -39,9 +39,9 @@ Get all queues.
 }
 ```
 
-## PUT /queue/{queue_id}
+## PUT /queue/{queue_id}/agents
 ```javascript
-{"agents": ["agent0", "agnet1", "agent2"]}
+["agent0", "agnet1", "agent2"]
 ```
 
 ## DELETE /queue/{queue_id}
