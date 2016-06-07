@@ -61,6 +61,15 @@ It'll jump to the "next" node after answered.
   "type": "check"
 }
 ```
+### app
+* call freeswitch application
+```javascript
+{
+  "module": "app",
+  "command": "conference",
+  "data": "conf_room_1"
+}
+```
 
 ## PUT /callflow/{callflow_id}
 Create or update a dialplan node.
