@@ -40,6 +40,7 @@ It'll jump to the "next" node after answered.
 ```javascript
 {
   "module": "menu",
+  "audio": "ivr.wav",
   "dtmf": {
      "0": "queue",
      "1": "group",
