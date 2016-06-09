@@ -39,12 +39,13 @@ It'll jump to the "next" node after answered.
 ### menu
 ```javascript
 {
-  "module": "menu",
-  "audio": "ivr.wav",
-  "dtmf": {
-     "0": "queue",
-     "1": "group",
-     "1XXX": "int"}
+    "audio": "ivr.wav",
+    "dtmf": {
+        "100": "conf",
+        "2XX": "int",
+        "3XX": "int"
+    },
+    "module": "menu"
 }
 ```
 
