@@ -1,13 +1,13 @@
 ### * Every API path implicitly has the prefix "/api/".
 
-# [Routes](routes)
+# [Routes](routes.md)
 
-# [Callflow](callflow)
+# [Callflow](callflow.md)
 
-# [Agent](agent)
+# [Agent](agent.md)
 
-# [Queue](queue)
+# [Queue](queue.md)
 
-# [CDR](cdr)
+# [CDR](cdr.md)
 
-# [SIPUsers](SIPUsers)
+# [SIPUsers](SIPUsers.md)
