@@ -1,4 +1,5 @@
-### * Every API path implicitly has the prefix "/api/".
+* This is the http restful API of a Call Centre/IP-PBX system (working in progress).
+* Each API path starts with "/api/".
 
 [Routes](routes.md)
 
