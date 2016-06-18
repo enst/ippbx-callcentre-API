@@ -1,22 +1,21 @@
 # HTTP API: SIP User # 
+RESTful url:  api/sipuser/{UserID}      {UserID} like "sipuser:*"
+
 ## GET /SIPUsers ##
-Get all SIP users. "UserID" is the SIP account.
+Get all SIP users. "userid" is the SIP account.
 ```
 #!json
 [
 {
-  "UserID":"UserID:001",
-  "DisplayName":"John",
-  "Password":"123123",
-  "SIPPassword":"123456",
-  "PhoneVendor":"",
-  "PhoneModel":"",
-  "PhoneMAC":"",
+  "userid":"sipuser:001",
+  "display_name":"John",
+  "password":"123123",
+  "vm_password":"123456"
 },
 ...
 ]
 ```
-## GET /SIPUser/{UserID} ##
+## GET api/sipuser/{UserID} ##
 Get single SIP user.
 
 ```
@@ -24,38 +23,19 @@ Get single SIP user.
 
 {
  the same as above
-},
+}
 ```
 
-## PUT /SIPUser/{UserID} ##
+## PUT api/sipuser/{UserID} ##
 Can change one or multiple fields. 
 ! Can't change UserID. !
 
 ```
 #!json
 
-{"DisplayName":"John",}
+{"display_name":"John"}
 ```
 
-## DELETE /SIPUser/{UserID} ##
+## DELETE api/sipuser/{UserID} ##
 
-# HTTP API: SIP system configuration #
-## GET /SIPSysCfg ##
-```
-#!json
 
-{
-  "UDPEnable":"",
-  "UDPPort":"",
-  "TCPEnable":"",
-  "TCPPort":"",
-  "TLSEnable":"",
-  "TLSPort":"",
-  "AutoProvisioning": {
-    "Enabled":"1",
-    "SvrIPv4Addr":"",
-  },
-}
-```
-## PUT /SIPSysCfg ##
-Can change single or multiple items.
