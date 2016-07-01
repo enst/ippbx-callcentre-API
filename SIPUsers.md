@@ -4,7 +4,6 @@ RESTful url:  api/sipuser/{UserID}      {UserID} like "sipuser:*"
 ## GET /SIPUsers ##
 Get all SIP users. "userid" is the SIP account.
 ```
-#!json
 [
 {
   "userid":"sipuser:001",
@@ -19,8 +18,6 @@ Get all SIP users. "userid" is the SIP account.
 Get single SIP user.
 
 ```
-#!json
-
 {
  the same as above
 }
@@ -31,8 +28,6 @@ Can change one or multiple fields.
 ! Can't change UserID. !
 
 ```
-#!json
-
 {"display_name":"John"}
 ```
 
