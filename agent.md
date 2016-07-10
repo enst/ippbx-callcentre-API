@@ -41,3 +41,5 @@ One or multiple fields can be updated.
     "status": "logged_in"
 }
 ```
+
+## DELETE /status/agent/{agent_id}
