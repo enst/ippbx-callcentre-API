@@ -16,7 +16,7 @@ Each callflow should have a module and may have one or more properties.
 {
   "module": "callout",
   "max_ring_time": 20,
-  "numbers": ["201", "201"] (optional)
+  "voicemail": "answer_voicemail"
 }
 ```
 
