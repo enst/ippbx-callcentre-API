@@ -6,10 +6,7 @@ Get all SIP users. "userid" is the SIP account.
 ```
 [
 {
-  "userid":"sipuser:001",
-  "display_name":"John",
   "password":"123123",
-  "vm_password":"123456"
 },
 ...
 ]
@@ -28,7 +25,7 @@ Can change one or multiple fields.
 ! Can't change UserID. !
 
 ```
-{"display_name":"John"}
+{"password":"123123"}
 ```
 
 ## DELETE api/sipuser/{UserID} ##
