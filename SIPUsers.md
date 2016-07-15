@@ -2,10 +2,11 @@
 RESTful url:  api/sipuser/{UserID}      {UserID} like "sipuser:*"
 
 ## GET /SIPUsers ##
-Get all SIP users. "userid" is the SIP account.
+Get all SIP users. "id" is the SIP account.
 ```
 [
 {
+  "id": "201",
   "password":"123123",
 },
 ...
