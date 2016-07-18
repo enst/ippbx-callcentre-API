@@ -1,5 +1,5 @@
 # HTTP API: SIP User
-RESTful url:  api/sipuser/{UserID}
+RESTful url:  /api/sipuser/{UserID}
 
 ## GET /SIPUsers
 Get all SIP users. "id" is the SIP account.
