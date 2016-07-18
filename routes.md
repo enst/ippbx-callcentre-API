@@ -18,4 +18,4 @@
   {"regex" : ".*" , "callflow" : "ext"}
 ]
 ```
-{context} is the dialplan context in FreeSWITCH. "default" is for calls that originate from internal extensions; "public" is for inbound calls that from external.
+{context} is the dialplan context in FreeSWITCH. "default" is for calls that originate from internal extensions; "public" is for inbound calls from external.
