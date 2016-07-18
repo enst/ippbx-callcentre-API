@@ -1,7 +1,7 @@
-# HTTP API: SIP User # 
-RESTful url:  api/sipuser/{UserID}      {UserID} like "sipuser:*"
+# HTTP API: SIP User
+RESTful url:  api/sipuser/{UserID}
 
-## GET /SIPUsers ##
+## GET /SIPUsers
 Get all SIP users. "id" is the SIP account.
 ```
 [
@@ -12,7 +12,7 @@ Get all SIP users. "id" is the SIP account.
 ...
 ]
 ```
-## GET api/sipuser/{UserID} ##
+## GET api/sipuser/{UserID}
 Get single SIP user.
 
 ```
@@ -21,7 +21,7 @@ Get single SIP user.
 }
 ```
 
-## PUT api/sipuser/{UserID} ##
+## PUT api/sipuser/{UserID}
 Can change one or multiple fields. 
 ! Can't change UserID. !
 
@@ -29,6 +29,6 @@ Can change one or multiple fields.
 {"password":"123123"}
 ```
 
-## DELETE api/sipuser/{UserID} ##
+## DELETE api/sipuser/{UserID}
 
 
