@@ -18,6 +18,7 @@
 	callee - phone number in E164
 	count - to query number of available rows, this query not return doc content. ignore start_docid
 	status - call status, 0:no answer, 1:answered, -1:all
+	stats - to query number of available rows and sum call minutes, this query not return doc content.
 	sum - sum call minutes (can only work with start_date, end_date & domain)
 
 # Response example: #
