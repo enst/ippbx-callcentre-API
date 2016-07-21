@@ -51,10 +51,17 @@ It'll jump to the "next" node after answered.
 ```
 
 ### voicemail
-* Leave a message.
+* Leave a message.  (no answer extension)
 ```javascript
 {
   "module": "voicemail"
+}
+```
+* Leave message in a specified mailbox.
+```javascript
+{
+  "module": "voicemail",
+  "box" : "201"
 }
 ```
 * Check mailbox.
