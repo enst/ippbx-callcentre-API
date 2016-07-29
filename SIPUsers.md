@@ -13,7 +13,7 @@ Get all SIP users. "id" is the SIP account.
 ]
 ```
 ## GET api/sipuser/{UserID}
-Get single SIP user.
+Get a single SIP user.
 
 ```
 {
