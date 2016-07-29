@@ -17,7 +17,12 @@ Get single SIP user.
 
 ```
 {
- the same as above
+  "password": "123123",
+  "vm-password": "user-choose",
+  "vm-mailto": "example@gmail.com",
+  "vm-mailfrom": "notification@example.com",
+  "vm-email-all-messages": "true",
+  "vm-attach-file": "true"
 }
 ```
 
