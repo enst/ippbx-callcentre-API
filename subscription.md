@@ -6,7 +6,7 @@ Event Callback
 {
   "caller_id_number": "+15141234567",
   "destination_number": "16471234567",
-  "domain": "sip.abc.gelenknetworks.com",
+  "domain": "sip.abc.example.com",
   "event": "NewCall",
   "event_time": 1469122519879,
   "start_time": 1469122519879
