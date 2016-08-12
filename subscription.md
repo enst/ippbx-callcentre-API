@@ -4,6 +4,7 @@ Event Callback
 * NewCall
 ```
 {
+  "caller_id_name": "Name",
   "caller_id_number": "+15141234567",
   "destination_number": "16471234567",
   "domain": "sip.abc.example.com",
@@ -15,6 +16,7 @@ Event Callback
 * Ringing
 ```
 {
+  "caller_id_name": "Name",
   "caller_id_number": "+15141234567",
   "destination_number": "16471234567",
   "domain": "sip.abc.gelenknetworks.com",
