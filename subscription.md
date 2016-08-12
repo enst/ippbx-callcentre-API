@@ -19,7 +19,7 @@ Event Callback
   "caller_id_name": "Name",
   "caller_id_number": "+15141234567",
   "destination_number": "16471234567",
-  "domain": "sip.abc.gelenknetworks.com",
+  "domain": "sip.abc.example.com",
   "event": "Ringing",
   "id": "b8b0dfb4-47c9-4bf8-a3f0-854ae3fbf4e6",
   "queue": "canada",
