@@ -27,3 +27,4 @@ Event Callback
   "start_time": 1469122519879
 }
 ```
+* Answer (similar to Ringing)
