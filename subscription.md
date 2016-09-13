@@ -1,5 +1,33 @@
 # Subscription
-Event Callback
+
+## GET /subscription
+Type "slack" can post a notification message to your slack channel.
+```
+{
+    "Answer": [
+        {
+            "type": "json",
+            "url": "httt://..."
+        }
+    ],
+    "NewCall": [
+        {
+            "type": "slack",
+            "url": "https://..."
+        }
+    ],
+    "Ringing": [
+        {
+            "type": "json",
+            "url": "http://..."
+        }
+    ]
+}
+```
+## PUT /subscription
+The same JSON format as in GET is used.
+
+##Event Callback
 
 * NewCall
 ```
