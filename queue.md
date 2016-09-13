@@ -38,6 +38,8 @@ Get all queues.
   "strategy": "ring_all"
 }
 ```
+The default strategy is "longest_idle".
+
 ## POST /queue/{queue_id}
 Use the same JSON format as in GET
 
