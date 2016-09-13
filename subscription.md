@@ -55,4 +55,4 @@ The same JSON format as in GET is used.
   "start_time": 1469122519879
 }
 ```
-* Answer (similar to Ringing)
+* Answer (the same as Ringing except the event will be "Answer")
