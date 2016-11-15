@@ -71,6 +71,21 @@ It'll jump to the "next" node after answered.
   "type": "check"
 }
 ```
+### schedule
+```
+{
+	"module": "schedule",
+	"schedule": {
+		"default": "off",
+		"rules": [{
+			"day_of_week": [1, 2, 3, 4, 5],
+			"start": "09:00",
+			"end": "17:00",
+			"callflow": "on"
+		}]
+	}
+}
+```
 ### app
 * call freeswitch application
 ```javascript
