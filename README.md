@@ -1,4 +1,4 @@
-* This is the http restful API of a Call Centre/IP-PBX system (working in progress).
+* This is the http restful API of a Call Centre/IP-PBX system.
 * Each API path starts with "/api/".
 
 [Routes](routes.md)
