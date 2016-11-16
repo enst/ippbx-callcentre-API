@@ -72,7 +72,7 @@ It'll jump to the "next" node after answered.
 }
 ```
 ### schedule
-```
+```javascript
 {
 	"module": "schedule",
 	"default": "off",
