@@ -77,7 +77,7 @@ It'll jump to the "next" node after answered.
 	"module": "schedule",
 	"default": "off",
 	"rules": [{
-		"day_of_week": [1, 2, 3, 4, 5],
+		"days_of_week": [1, 2, 3, 4, 5],
 		"start": "09:00",
 		"end": "17:00",
 		"callflow": "on"
