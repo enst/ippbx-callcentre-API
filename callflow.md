@@ -61,6 +61,7 @@ It'll jump to the "next" node after answered.
 ```javascript
 {
   "module": "voicemail",
+  "type": "box",
   "box" : "201"
 }
 ```
