@@ -15,8 +15,8 @@ The "to" number can be an internal extension, queue or conference room, etc,.
 ```
 {
   "type": "agent",
-   "to": "+16471234567",
-   "from": "agent1" 
+  "to": "+16471234567",
+  "from": "agent1" 
 }
 ```
 
