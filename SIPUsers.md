@@ -27,8 +27,7 @@ Get a single SIP user.
 ```
 
 ## PUT api/sipuser/{UserID}
-Can change one or multiple fields. 
-! Can't change UserID. !
+One or more fields can be changed. UserID can't be changed!
 
 ```
 {"password":"123123"}
