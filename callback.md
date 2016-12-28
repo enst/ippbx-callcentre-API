@@ -4,7 +4,7 @@
 ```
 {
   "type": "external",
-  "from": "+16471234567",
+  "from": "16471234567",
   "to": "600"
 }
 ```
@@ -15,7 +15,7 @@ The "to" number can be an internal extension, queue or conference room, etc,.
 ```
 {
   "type": "agent",
-  "to": "+16471234567",
+  "to": "16471234567",
   "from": "agent1" 
 }
 ```
